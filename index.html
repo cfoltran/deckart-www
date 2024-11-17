@@ -1,1 +1,227 @@
-Welcome on Deckart
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deckart - Une mémoire d'éléphant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="Logo de Deckart" height="40">
+                    <img src="assets/deckart.svg" alt="Deckart" height="30">
+                </div>
+                <div class="nav-links"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Offrez la meilleure méthode de mémorisation à vos élèves</h2>
+            <p>
+                La clé pour mieux mémoriser et libérez du temps aux enseignants pour se concentrer sur la compréhension et la résolution de problèmes.
+            </p>
+            <div class="ctas">
+                <a href="https://n9ylpal3js2.typeform.com/to/sUAO4tmG" class="btn">ÊTRE RECONTACTÉ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="method">
+        <div class="container center">
+            <h2>Notre méthodologie</h2>
+            <ul>
+                <li>
+                    <img src="assets/check.svg">
+                    Des flashcards de qualité couvrant les points essentiels du programme officiel.
+                </li>
+                <li>
+                    <img src="assets/check.svg">
+                    Un système de révision basé sur la méthode Leitner pour ancrer durablement les connaissances.
+                </li>
+                <li>
+                    <img src="assets/check.svg">
+                    Une gamification engageante pour motiver chaque élève à progresser.
+                </li>
+                <li>
+                    <img src="assets/check.svg">
+                    Des cartes réversibles favorisant la restitution active des savoirs.
+                </li>
+                <li>
+                    <div class="upcoming"></div>
+                    Un apprentissage collaboratif grâce à un système de pair-à-pair.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container feature">        
+            <img src="assets/1.png" alt="Notfication" width="40%">
+            <div>
+                <h2>Des révisions quotidiennes, ludiques et efficaces</h2>
+                <p>
+                    Chaque jour, vos élèves reçoivent une notification pour une session de révision interactive et stimulante.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container feature">
+            <div>
+                <h2>Un système de progression motivant</h2>
+                <p>
+                    Des points, des badges et des récompenses pour encourager vos élèves à se dépasser.
+                </p>
+            </div>
+            <img src="assets/2.png" alt="Deck success" width="40%">
+        </div>
+    </section>
+
+    <section>
+        <div class="container feature">
+            <img src="assets/3.png" alt="Deckart subjects" width="40%">
+            <div>
+
+                <h2>Toutes les matières couvertes dans plus de 5000 cartes</h2>
+                <p>
+                    De la primaire au lycée, Deckart couvre toutes les matières du programme officiel.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="expert">
+        <div class="container">
+            <h2>Une méthode reconnue</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/n3CkA3Qc8kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/RVB3PBPxMWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Deckart. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<style>
+    body {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    header {
+        width: 100%;
+        border-bottom: #F1F5F9 solid 2px;
+        background-color: white;
+    }
+
+    nav .logo {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 16px;
+    }
+
+    #hero {
+        background-color: #F1F5F9;
+        padding: 6rem 0;
+        text-align: center;
+    }
+
+    #method {
+        padding: 4rem 0;
+    }
+
+    #method ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #method ul li {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin: 1rem 0;
+    }
+
+    #expert {
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .footer {
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .footer a {
+        text-decoration: none;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .upcoming {
+        background-color: #F1F5F9;
+        color: #64748B;
+        padding: 14px;
+        border-radius: 50%;
+    }
+
+    .ctas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .btn {
+        background-color: #0949E9;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+</style>
