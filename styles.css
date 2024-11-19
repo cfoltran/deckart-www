@@ -93,14 +93,16 @@ nav .logo {
 
 #hero {
     padding-top: 4rem;
-    background-image: url('assets/banner.png');
+    background: url('assets/banner.png');
+    background-size: cover;
 }
 
 #hero .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: end;
     gap: 2rem;
 }
 
@@ -119,6 +121,7 @@ nav .logo {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-bottom: 17px; 
+    margin: 0;
 }
 
 #hero .subtitle {
@@ -156,6 +159,12 @@ nav .logo {
 .checklist-item p {
     margin: 0;
     color: white;
+}
+
+.hero-text {
+    margin-top: 63px;
+    margin-bottom: 63px;
+    max-width: 50%;
 }
 
 #methodology {
@@ -218,15 +227,22 @@ nav .logo {
     color: white;
 }
 
-#expert iframe {
-    width: 774px;
-    height: 437px;
-    top: 148px;
-    left: 333px;
-    gap: 0px;
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 66%;
     border-radius: 56px;
-    border: 17px;
-    border: 17px solid #FFFFFF12;   
+}
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #contact {
@@ -234,10 +250,15 @@ nav .logo {
     margin-bottom: 77px;
 }
 
+#contact .row div {
+    max-width: 50%;
+}
+
 #contact .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
 }
