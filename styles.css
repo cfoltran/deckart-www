@@ -98,11 +98,11 @@ nav .logo {
 }
 
 #hero .container {
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: end;
+    align-items: flex-end;
     gap: 2rem;
 }
 
@@ -164,7 +164,6 @@ nav .logo {
 .hero-text {
     margin-top: 63px;
     margin-bottom: 63px;
-    max-width: 50%;
 }
 
 #methodology {
@@ -250,16 +249,12 @@ nav .logo {
     margin-bottom: 77px;
 }
 
-#contact .row div {
-    max-width: 50%;
-}
-
 #contact .row {
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
     gap: 2rem;
 }
 
