@@ -76,6 +76,7 @@ header {
     width: 100%;
     border-bottom: #F1F5F9 solid 2px;
     background-color: white;
+    position: fixed;
 }
 
 nav .logo {
