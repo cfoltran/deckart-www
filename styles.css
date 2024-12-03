@@ -162,6 +162,10 @@ nav .logo {
     color: white;
 }
 
+#hero {
+    padding-top: 150px;
+}
+
 .hero-text {
     margin-top: 63px;
     margin-bottom: 63px;
