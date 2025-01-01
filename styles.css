@@ -85,6 +85,11 @@ nav .logo {
     gap: 13px;
 }
 
+nav .nav-links {
+    display: flex;
+    gap: 12px;
+}
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -154,6 +159,11 @@ nav .logo {
     padding: 16px 22px 16px 22px;
     gap: 10px;
     border: 1px solid #94A1FF;
+    color: #0949E9;
+}
+
+.btn-secondary {
+    background-color: white;
     color: #0949E9;
 }
 
