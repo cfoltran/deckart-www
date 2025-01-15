@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cle.deckart",
+      "sha256_cert_fingerprints": [
+        "03:9F:41:A3:5B:78:6A:7F:76:50:20:C5:34:1F:A5:77:B2:D3:7A:B4:8E:4D:46:92:9C:B7:1D:C7:72:63:72:31"
+      ]
+    }
+  }
+]
