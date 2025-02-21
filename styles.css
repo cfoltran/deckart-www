@@ -73,10 +73,19 @@ p {
 }
 
 header {
-    width: 100%;
-    border-bottom: #F1F5F9 solid 2px;
-    background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
 }
 
 nav .logo {
@@ -175,7 +184,7 @@ nav .nav-links {
 }
 
 .btn-secondary {
-    background-color: white;
+    background-color: transparent;
     color: #0949E9;
 }
 
@@ -235,6 +244,36 @@ nav .nav-links {
     justify-content: space-around;
     gap: 4rem;
 }
+
+#establishment {
+    margin: 63px 0;
+    text-align: center;
+}
+
+.establishment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.establishment-card {
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.establishment-card:hover {
+    transform: translateY(-5px);
+}
+
+.establishment-card img {
+    margin-bottom: 10px;
+}
+
 
 #expert {
     margin-top: 63px;
