@@ -214,6 +214,7 @@ nav .nav-links {
 .method-item {
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     padding: 16px;
     width: 299px;
@@ -221,6 +222,11 @@ nav .nav-links {
     top: 135px;
     left: 168px;
     border-radius: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.method-item:hover {
+    transform: translateY(-5px);
 }
 
 .border-orange { border: 2px solid #F97316; }
@@ -232,7 +238,7 @@ nav .nav-links {
 #features {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 63px;
     margin-bottom: 77px;
 }
@@ -259,7 +265,7 @@ nav .nav-links {
 }
 
 .establishment-card {
-    padding: 20px;
+    padding: 16px;
     border-radius: 16px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
