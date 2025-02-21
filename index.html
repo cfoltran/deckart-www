@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="icon" href="assets/deckart.png" type="image/png">
 </head>
 <body>
     <header>
@@ -46,44 +46,38 @@
                 </div>
                 
                 <div class="ctas">
-                    <!-- <a href="https://n9ylpal3js2.typeform.com/to/sUAO4tmG" class="btn">Être recontacté maintenant</a> -->
-                    <a href="https://apps.apple.com/us/app/keynote/6702029675" target="_blank" class="store-btn">
-                        <img src="assets/app-store.svg" alt="Download on the App Store" height="50">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.cle.deckart" target="_blank" class="store-btn">
-                        <img src="assets/google-play.png" alt="Download on the Play Store" height="50">
-                    </a>
+                    <a href="/assets/brochure.pdf" target="_blank" class="btn">Télécharger la brochure</a>
                 </div>
             </div>
             <div>
-                <img src="assets/homepage.png" alt="Hero" width="height">
+                <img id="app1" src="assets/app-home.jpeg" alt="Hero">
             </div>
         </div>
     </section>
 
     <section id="methodology">
-        <div class="container">
+        <div class="container" style="gap: 16px;">
             <h2>La méthodologie Deck<span>art</span></h2>
-            <div class="method-grid">
-                <div class="method-item">
-                    <img src="assets/game-cards.svg" alt="Game cards" height="24">
-                    <p>Des contenus pédagogiques organisés sous forme de flashcards et alignés sur le programme officiel 2024-2025, adaptés à chaque niveau scolaire.</p>
+            <div style="display: flex; flex-direction: column; gap: 16px;">
+                <div style="display: flex; flex-direction: row; gap: 16px; justify-content: center;">
+                    <div class="method-item border-blue" style="align-items: end;">
+                        <p><b>Des contenus pédagogiques</b> organisés sous forme de flashcards et alignés sur le programme officiel 2024-2025, adaptés à chaque niveau scolaire.</p>
+                        <img src="assets/game-cards.svg" alt="Game cards" height="24">
+                    </div>
+                    <div class="method-item border-orange" style="align-items: start;">
+                        <p><b>Une méthode scientifique éprouvée</b> basée sur le modèle Leitner, notre approche maximise l'efficacité de la mémorisation.</p>
+                        <img src="assets/brain-head.svg" alt="Brain head" height="24">
+                    </div>
                 </div>
-                <div class="method-item">
-                    <img src="assets/brain-head.svg" alt="Brain head" height="24">
-                    <p>Une méthode scientifique inspirée du modèle Leitner, conçue pour maximiser l'efficacité de la mémorisation.</p>
-                </div>
-                <div class="method-item">
-                    <img src="assets/trophy.svg" alt="Trophy" height="24">
-                    <p>Un système de récompenses motivantes, incluant badges, scores et défis pour stimuler la progression de vos élèves.</p>
-                </div>
-                <div class="method-item">
-                    <img src="assets/synchronize-arrows-square.svg" alt="Synchronize arrows square" height="24">
-                    <p>Une planification intelligente des révisions, basée sur des rappels réguliers pour ancrer durablement les connaissances.</p>
-                </div>
-                <div class="method-item">
-                    <img src="assets/buiness-deal-handshake.svg" alt="Business deal handshake" height="24">
-                    <p>Des sessions interactives accessibles sur tous les appareils, pour réviser à tout moment, n'importe où.</p>
+                <div style="display: flex; flex-direction: row; gap: 16px; justify-content: center;">
+                    <div class="method-item border-yellow" style="align-items: end;">
+                        <img src="assets/trophy.svg" alt="Trophy" height="24">
+                        <p><b>Un système de récompenses motivantes</b>, incluant badges, scores et défis pour stimuler la progression de vos élèves.</p>
+                    </div>
+                    <div class="method-item border-green" style="align-items: start;">
+                        <img src="assets/synchronize-arrows-square.svg" alt="Synchronize arrows square" height="24">
+                        <p><b>Une planification intelligente</b> des révisions, basée sur des rappels réguliers pour ancrer durablement les connaissances.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,39 +85,40 @@
 
     <section id="features">
         <div class="container feature">        
-            <img src="assets/1.png" alt="Notfication" width="40%">
             <div>
-                <h2>Des révisions <span>quotidiennes</span>, <span>ludiques</span> et <span>efficaces</span></h2>
+                <h2>Des révisions en <span>musique</span></h2>
                 <p>
-                    Chaque jour, vos élèves reçoivent une notification les invitant à une session de révision interactive et stimulante, adaptée à leurs besoins, pour consolider leurs connaissances tout en progressant à leur propre rythme.
+                    Nous nous souvenons tous de “Head, Shoulders, Knees & Toes”, cette chanson qui nous a permis, enfant, d’apprendre les parties du corps en anglais sans effort. Avec Deckart, chaque cours à sa chanson pour apprendre plus facilement et ancrer durablement les connaissances.
+                </p>
+            </div>
+            <img src="assets/app-music.svg" alt="Musique" width="40%">
+        </div>
+    
+
+    
+        <div class="container feature">
+            <img src="assets/pyramid.svg" alt="Pyramide du savoir au savoir-faire" width="40%">
+            <div>
+                <h2>Une méthode pour les élève qui aide les <span>enseignants</span></h2>
+                <p>
+                    La méthode aide à renforcer la mémorisation véritable socle au développement des savoir-faire. Des cours sus, permettant aux enseignants de se concentrer sur la compréhension et la résolution de problèmes.
                 </p>
             </div>
         </div>
+
+        <div class="container ">
+            <h2>Pour votre <span>établissement</span></h2>
+            <div>
+                <p><b>Amélioration des performances scolaires</b> : une mémorisation renforcée conduit à de meilleurs résultats académiques.</p>
+                <p><b>Gain de temps pour les enseignants</b> : moins de temps consacré aux révisions répétitives, plus de temps pour l'enseignement approfondi.</p>
+                <p><b>Engagement accru des élèves</b> : une approche ludique qui stimule la motivation et l'autonomie des apprenants.</p>
+                <p><b>Accessibilité</b> : compatible avec tous les types d’appareils (téléphone, ordinateur) et accessible même au CDI.</p>
+
+            </div>
+        </div>    
     </section>
 
-    <section>
-        <div class="container feature">
-            <div>
-                <h2>Un système de progression <span>motivant</span></h2>
-                <p>
-                    Accumulez des points, obtenez des badges et relevez des défis pour encourager vos élèves à se surpasser.
-                </p>
-            </div>
-            <img src="assets/2.png" alt="Deck success" width="40%">
-        </div>
-    </section>
-
-    <section>
-        <div class="container feature">
-            <img src="assets/3.png" alt="Deckart subjects" width="40%">
-            <div>
-                <h2>Toutes les matières couvertes dans plus de <span>5000 cartes</span></h2>
-                <p>
-                    Du collège au lycée, Deckart propose des ressources pour toutes les matières du programme officiel.
-                </p>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="expert">
         <div class="container">
@@ -136,12 +131,19 @@
 
     <section id="contact">
         <div class="container">
-            <div class="row">
-                <div>
+            <div class="row" style="display: flex; align-items: start;">
+                <div >
                     <h1>Deckart l’outil idéal pour aider vos élèves à mémoriser et progresser efficacement.</h1>
-                    <a href="https://n9ylpal3js2.typeform.com/to/sUAO4tmG" class="btn">Être recontacté</a>
+                    <div class="ctas">
+                        <a href="https://apps.apple.com/us/app/keynote/6702029675" target="_blank" class="store-btn">
+                            <img src="assets/app-store.svg" alt="Download on the App Store" height="50">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.cle.deckart" target="_blank" class="store-btn">
+                            <img src="assets/google-play.png" alt="Download on the Play Store" height="50">
+                        </a>
+                    </div>
                 </div>
-               <img src="assets/homepage2.png" alt="Deckart home page">
+               <img src="assets/app-success.PNG" alt="Deckart success page" id="app2">
             </div>            
         </div>
     </section>
