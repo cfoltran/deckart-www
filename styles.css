@@ -209,6 +209,14 @@ nav .nav-links {
 
 #methodology h2 {
     margin-bottom: 40px;
+    text-align: center;
+}
+
+.method-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-content: center;
 }
 
 .method-item {
@@ -217,10 +225,6 @@ nav .nav-links {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     padding: 16px;
-    width: 299px;
-    border-radius: 16px;
-    top: 135px;
-    left: 168px;
     border-radius: 16px;
     transition: transform 0.2s ease-in-out;
 }
@@ -233,6 +237,14 @@ nav .nav-links {
 .border-blue { border: 2px solid #0c49e8; }
 .border-yellow { border: 2px solid #eab308; }
 .border-green { border: 2px solid #22c55e; }
+
+@media (max-width: 768px) {
+    .method-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 
 #features {
