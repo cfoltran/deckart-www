@@ -244,9 +244,6 @@ nav .nav-links {
     }
 }
 
-
-
-
 #features {
     display: flex;
     flex-direction: column;
@@ -259,8 +256,34 @@ nav .nav-links {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    gap: 4rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.feature-content {
+    flex: 1;
+}
+
+.feature-image {
+    max-width: 40%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-image {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        order: -1; /* Move the image to the top */
+    }
+
+    .feature-content {
+        text-align: left;
+    }
 }
 
 #establishment {
