@@ -294,10 +294,10 @@ nav .nav-links {
 .iframe-container {
     position: relative;
     overflow: hidden;
-    width: calc(100% + 2rem); /* Permet de dépasser légèrement le container */
-    max-width: 1400px; /* Fixe une limite pour les écrans larges */
+    width: calc(100% + 2rem);
+    max-width: 1400px;
     padding-bottom: 56.25%;
-    margin: 0 -1rem; /* Compense le padding de .container */
+    margin: 0 -1rem;
     border-radius: 56px;
 }
 
@@ -310,16 +310,15 @@ nav .nav-links {
     border: 0;
 }
 
-/* Pour les écrans plus grands (PC 13 pouces ou plus) */
 @media (min-width: 1024px) {
     .iframe-container {
-        max-width: 1000px !important; /* Largeur maximale de l'iframe */
-        padding-bottom: 56.25%; /* Ratio 16:9 (ne change pas ici) */
-        margin: 0 auto !important; /* Centre horizontalement */
+        max-width: 1000px !important;
+        padding-bottom: 56.25%;
+        margin: 0 auto !important;
     }
 
     .responsive-iframe {
-        width: 100% !important; /* Assure que l'iframe occupe tout l'espace du conteneur */
+        width: 100% !important;
         height: 100% !important;
     }
 }
