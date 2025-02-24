@@ -163,6 +163,26 @@
         </div>
     </footer>
     <a href="https://n9ylpal3js2.typeform.com/to/sUAO4tmG" class="floating-btn">Être recontacté</a>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const header = document.querySelector('header');
+          
+          // Fonction pour gérer le changement d'apparence au scroll
+          function handleScroll() {
+            if (window.scrollY > 50) {
+              header.classList.add('scrolled');
+            } else {
+              header.classList.remove('scrolled');
+            }
+          }
+          
+          // Écouter l'événement de défilement
+          window.addEventListener('scroll', handleScroll);
+          
+          // Exécuter une fois au chargement
+          handleScroll();
+        });
+      </script>
 </body>
 </html>
 
