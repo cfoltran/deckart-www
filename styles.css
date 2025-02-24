@@ -322,6 +322,35 @@ nav .nav-links {
     margin-bottom: 10px;
 }
 
+#faq {
+    margin: 63px 0;
+    padding: 2rem 0;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.faq-item {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #042168;
+}
+
+.faq-item p {
+    margin: 0.5rem 0 0;
+    color: #555;
+}
 
 #expert {
     margin-top: 63px;
