@@ -18,18 +18,18 @@ export default function Footer() {
           <div>
             <h3 className="footer-heading">Deckart</h3>
             <div className="footer-links">
-              <Link href="#features">Fonctionnalités</Link>
-              <Link href="#how-it-works">Comment ça marche</Link>
-              <Link href="#pricing">Tarifs</Link>
-              <Link href="#testimonials">Témoignages</Link>
+              <Link href="/#features">Fonctionnalités</Link>
+              <Link href="/#how-it-works">Comment ça marche</Link>
+              <Link href="/#pricing">Tarifs</Link>
+              <Link href="/#testimonials">Témoignages</Link>
             </div>
           </div>
           
           <div>
             <h3 className="footer-heading">Ressources</h3>
             <div className="footer-links">
-              <a href="/assets/brochure_v3.pdf">Brochure</a>
-              <Link href="#faq">FAQ</Link>
+              <Link href="/assets/brochure_v3.pdf">Brochure</Link>
+              <Link href="/#faq">FAQ</Link>
             </div>
           </div>
           

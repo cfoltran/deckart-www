@@ -395,7 +395,6 @@ export default function Home() {
       <CTA />
       <FAQ />
       <Contact />
-      <Footer />
     </>
   );
 }

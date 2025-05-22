@@ -30,20 +30,20 @@ export default function Navbar() {
             />
           </div>
 
-          <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
+          <button className="menu-toggle" id="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
           </button>
 
-          <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-            <Link href="#features" className="nav-item">
+          <div className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="nav-links">
+            <Link href="/#features" className="nav-item">
               FONCTIONNALITÉS
             </Link>
-            <Link href="#how-it-works" className="nav-item">
+            <Link href="/#how-it-works" className="nav-item">
               COMMENT ÇA MARCHE
             </Link>
-            <Link href="#pricing" className="nav-item">
+            <Link href="/#pricing" className="nav-item">
               TARIFS
             </Link>
             <Link href="https://app.deckart.xyz" className="btn">
