@@ -11,7 +11,7 @@ export default function Footer() {
               <Image src="/assets/deckart.svg" alt="Deckart" width={120} height={30} />
             </div>
             <p className="footer-description">
-              Deckart est une application qui révolutionne l'apprentissage en implémentant les méthodes scientifiquement prouvées comme étant les plus efficaces pour la mémorisation à long terme.
+              Deckart est une application qui révolutionne l&apos;apprentissage en implémentant les méthodes scientifiquement prouvées comme étant les plus efficaces pour la mémorisation à long terme.
             </p>
           </div>
           

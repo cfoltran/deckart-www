@@ -8,8 +8,8 @@ export default function Contact() {
         <div className="contact-container">
           <FadeIn>
             <div className="contact-text">
-              <h2>Téléchargez l'application</h2>
-              <p>Disponible sur iOS et Android, Deckart est l'outil idéal pour aider les élèves à mémoriser et progresser efficacement.</p>
+              <h2>Téléchargez l&apos;application</h2>
+              <p>Disponible sur iOS et Android, Deckart est l&apos;outil idéal pour aider les élèves à mémoriser et progresser efficacement.</p>
               <div className="store-buttons">
                 <a href="https://apps.apple.com/us/app/keynote/6702029675" target="_blank" className="store-btn">
                   <Image src="/assets/app-store.svg" alt="Télécharger sur l'App Store" width={150} height={50} />

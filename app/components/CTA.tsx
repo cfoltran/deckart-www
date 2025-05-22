@@ -15,10 +15,10 @@ export default function CTA() {
           height={180}
         />
         <FadeIn>
-          <h2>Prêt à révolutionner votre façon d'apprendre ?</h2>
+          <h2>Prêt à révolutionner votre façon d&apos;apprendre ?</h2>
         </FadeIn>
         <FadeIn>
-          <p>Rejoignez les milliers d'utilisateurs qui ont déjà amélioré leurs résultats grâce à Deckart</p>
+          <p>Rejoignez les milliers d&apos;utilisateurs qui ont déjà amélioré leurs résultats grâce à Deckart</p>
         </FadeIn>
         <FadeIn>
           <a href="https://app.deckart.xyz" className="btn">COMMENCER GRATUITEMENT</a>

@@ -3,7 +3,6 @@ import FadeIn from "./components/FadeIn";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -12,8 +11,8 @@ export default function Home() {
         <div className="container">
           <FadeIn>
             <div className="hero-text">
-              <h1>DÉVELOPPEZ UNE MÉMOIRE D'ÉLÉPHANT</h1>
-              <p className="hero-subtitle">Deckart utilise la science cognitive pour optimiser la mémorisation et permettre aux élèves d'apprendre plus efficacement.</p>
+              <h1>DÉVELOPPEZ UNE MÉMOIRE D&apos;ÉLÉPHANT</h1>
+              <p className="hero-subtitle">Deckart utilise la science cognitive pour optimiser la mémorisation et permettre aux élèves d&apos;apprendre plus efficacement.</p>
               
               <div className="hero-badges">
                 <div className="hero-badge red">
@@ -32,7 +31,7 @@ export default function Home() {
               
               <div className="ctas">
                 <a href="https://app.deckart.xyz" className="btn">COMMENCER GRATUITEMENT</a>
-                <a href="https://play.google.com/store/apps/details?id=com.cle.deckart" className="btn btn-secondary">TÉLÉCHARGER L'APP</a>
+                <a href="https://play.google.com/store/apps/details?id=com.cle.deckart" className="btn btn-secondary">TÉLÉCHARGER L&apos;APP</a>
               </div>
             </div>
           </FadeIn>
@@ -145,7 +144,7 @@ export default function Home() {
           <div className="download-content">
             <div className="download-text">
               <h3>Formation gratuite : techniques de mémorisation scientifiquement prouvées</h3>
-              <p>Apprenez les méthodes qui font la différence entre "j'ai tout oublié" et "je maîtrise mon sujet"</p>
+              <p>Apprenez les méthodes qui font la différence entre &quot;j&apos;ai tout oublié&quot; et &quot;je maîtrise mon sujet&quot;</p>
             </div>
             <div className="download-action">
               <a href="/assets/FormationDeckart.pdf" download className="download-btn">
@@ -160,8 +159,8 @@ export default function Home() {
         <div className="container">
           <FadeIn>
             <div className="section-header">
-              <h2>Apprendre n'a jamais été aussi efficace</h2>
-              <p>Notre approche s'appuie sur quatre piliers fondamentaux issus des neurosciences</p>
+              <h2>Apprendre n&apos;a jamais été aussi efficace</h2>
+              <p>Notre approche s&apos;appuie sur quatre piliers fondamentaux issus des neurosciences</p>
             </div>
           </FadeIn>
           
@@ -173,7 +172,7 @@ export default function Home() {
                 </div>
                 <div className="feature-content">
                   <h3>Récupération active</h3>
-                  <p>Nos flashcards interactives vous obligent à récupérer activement l'information en mémoire, renforçant ainsi les connexions neuronales.</p>
+                  <p>Nos flashcards interactives vous obligent à récupérer activement l&apos;information en mémoire, renforçant ainsi les connexions neuronales.</p>
                   <a href="#how-it-works" className="btn-text">En savoir plus</a>
                 </div>
               </div>
@@ -186,7 +185,7 @@ export default function Home() {
                 </div>
                 <div className="feature-content">
                   <h3>Répétition espacée</h3>
-                  <p>Notre algorithme optimise le moment des révisions selon votre courbe d'oubli personnelle, pour une mémorisation durable.</p>
+                  <p>Notre algorithme optimise le moment des révisions selon votre courbe d&apos;oubli personnelle, pour une mémorisation durable.</p>
                   <a href="#how-it-works" className="btn-text">En savoir plus</a>
                 </div>
               </div>
@@ -199,7 +198,7 @@ export default function Home() {
                 </div>
                 <div className="feature-content">
                   <h3>Apprentissage ludique</h3>
-                  <p>Des défis, des récompenses et des animations qui transforment l'effort cognitif en expérience motivante et engageante.</p>
+                  <p>Des défis, des récompenses et des animations qui transforment l&apos;effort cognitif en expérience motivante et engageante.</p>
                   <a href="#how-it-works" className="btn-text">En savoir plus</a>
                 </div>
               </div>
@@ -271,7 +270,7 @@ export default function Home() {
           <FadeIn>
             <div className="section-header">
               <h2>Ce que disent nos utilisateurs</h2>
-              <p>Découvrez comment Deckart transforme l'apprentissage</p>
+              <p>Découvrez comment Deckart transforme l&apos;apprentissage</p>
             </div>
           </FadeIn>
           
@@ -279,7 +278,7 @@ export default function Home() {
             <FadeIn>
               <div className="testimonial-card">
                 <div className="testimonial-content">
-                  <p>Oui vraiment j'adore cette application, elle est super bien pour réviser... Seul petit truc à rajouter pour moi c'est que je trouve que ce serait trop bien de faire les cours de toutes les matières.</p>
+                  <p>Oui vraiment j&apos;adore cette application, elle est super bien pour réviser... Seul petit truc à rajouter pour moi c&apos;est que je trouve que ce serait trop bien de faire les cours de toutes les matières.</p>
                 </div>
                 <div className="testimonial-author">
                   <div className="author-image">A</div>
@@ -294,7 +293,7 @@ export default function Home() {
             <FadeIn>
               <div className="testimonial-card">
                 <div className="testimonial-content">
-                  <p>En tant que professeur, j'apprécie que mes élèves arrivent en classe avec les bases déjà mémorisées. Ça me permet d'aller plus loin dans les applications pratiques et la résolution de problèmes.</p>
+                  <p>En tant que professeur, j&apos;apprécie que mes élèves arrivent en classe avec les bases déjà mémorisées. Ça me permet d&apos;aller plus loin dans les applications pratiques et la résolution de problèmes.</p>
                 </div>
                 <div className="testimonial-author">
                   <div className="author-image">M</div>
@@ -315,7 +314,7 @@ export default function Home() {
                   <div className="author-image">S</div>
                   <div className="author-info">
                     <h4>Sophie M.</h4>
-                    <p>Parent d'élève</p>
+                    <p>Parent d&apos;élève</p>
                   </div>
                 </div>
               </div>
@@ -324,7 +323,7 @@ export default function Home() {
             <FadeIn>
               <div className="testimonial-card">
                 <div className="testimonial-content">
-                  <p>Notre collège utilise Deckart depuis 6 mois et nous avons constaté une nette amélioration de l'engagement des élèves. L'aspect ludique les motive et les résultats aux évaluations sont en hausse.</p>
+                  <p>Notre collège utilise Deckart depuis 6 mois et nous avons constaté une nette amélioration de l&apos;engagement des élèves. L&apos;aspect ludique les motive et les résultats aux évaluations sont en hausse.</p>
                 </div>
                 <div className="testimonial-author">
                   <div className="author-image">J</div>
@@ -353,7 +352,7 @@ export default function Home() {
               <table className="pricing-table">
                 <thead>
                   <tr>
-                    <th>Nombre d'élèves</th>
+                    <th>Nombre d&apos;élèves</th>
                     <th>Tarif mensuel par élève</th>
                   </tr>
                 </thead>
