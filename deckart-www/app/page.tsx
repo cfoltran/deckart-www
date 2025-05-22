@@ -149,7 +149,7 @@ export default function Home() {
             </div>
             <div className="download-action">
               <a href="/assets/FormationDeckart.pdf" download className="download-btn">
-                <span className="btn-text">Télécharger gratuitement</span>
+                Télécharger gratuitement
               </a>
             </div>
           </div>
