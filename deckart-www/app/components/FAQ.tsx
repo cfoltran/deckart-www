@@ -32,10 +32,15 @@ const faqItems: FAQItem[] = [
 ];
 
 export default function FAQ() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  // Initialiser avec tous les indices pour que tous les éléments soient ouverts
+  const [activeIndices, setActiveIndices] = useState<number[]>(faqItems.map((_, index) => index));
 
   const toggleFAQ = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setActiveIndices(prev => 
+      prev.includes(index) 
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
   };
 
   return (
@@ -51,7 +56,7 @@ export default function FAQ() {
         <div className="faq-container">
           {faqItems.map((item, index) => (
             <FadeIn key={index}>
-              <div className={`faq-item ${activeIndex === index ? 'active' : ''}`}>
+              <div className={`faq-item ${activeIndices.includes(index) ? 'active' : ''}`}>
                 <div 
                   className="faq-question"
                   onClick={() => toggleFAQ(index)}
